@@ -1,0 +1,42 @@
+h3 {
+    font-size: 72px;
+} 
+
+input {
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    border-color: gray;
+} 
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: gray;
+}
+
+.add {
+    position: relative;
+    right: 115px;
+    top: -53px;
+}  
+
+.sub {
+    position: relative;
+    left: 115px;
+    top: -103px;
+}    
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+section {
+        display: flex;  
+        justify-content: center;  
+        align-items: center;  
+        flex-direction: column; 
+    } 
