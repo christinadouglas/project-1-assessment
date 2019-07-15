@@ -27,3 +27,9 @@ function red() {
         msg.style.color = 'black' 
     }
 };
+
+//Feedback
+//Great idea to break out the code that colors the text into a separate function!
+//The only way to improve this code that I see would be to use event delegation.  Put the plus and minus buttons in one parent
+//container div and then write an event listener on that parent.  Then you can test if event.target is the plus button or the 
+//minus button and adjust the number accordingly
